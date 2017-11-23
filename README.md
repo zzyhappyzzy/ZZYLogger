@@ -11,6 +11,8 @@ According to Apple's documentation [NSLog](https://developer.apple.com/documenta
 * Sometimes we need save log to files.
 
 # Usage
+Just drag `ZZYLog.h` and `ZZYLog.m` file to your project and then `import "ZZYLog.h"`
+
 ```objc
 ZError(@"Simple Error");
 ZWarning(@"Simple Warning");
