@@ -19,6 +19,13 @@ ZWarning(@"Simple Warning");
 ZInfo(@"Just simple info");
 ZDebug(@"Everything is OK");
 ZFile(@"Simple message write to file");
+
+ZError(@"Something has go wrong with address %p",self);
+ZWarning(@"Warning----%d----%@----%p",12,@"msg",self);
+
+int a = 12;
+int b = 25;
+ZDebug(@"%d + %d = %d",a,b,(a+b));
 ```
 # Output
 * Error   -----  ❌
